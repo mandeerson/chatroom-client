@@ -1,0 +1,59 @@
+
+.account__avatar {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.editor {
+ outline: none;
+ background: #fff;
+ height: 90vh;
+ border: 1px solid #ccc;
+ overflow-y: auto;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+.users {
+ margin: 20px 0;
+ display: flex;
+}
+
+.info {
+ width: 40px;
+ height: 40px;
+ display: -webkit-flex;
+ display: flex;
+ border-radius: 50%;
+ margin-right: 10px;
+ background: #FFF;
+}
+
+.content {
+ display: flex;
+ flex-wrap: nowrap;
+ padding: 15px 50px;
+}
+
+.document {
+ flex: 1;
+}
+
+.activity {
+ width: 300px;
+ background: #FFF;
+ min-width: 300px;
+ margin: 80px 0px 0px 15px;
+ height: 90vh;
+ border: 1px solid #ccc;
+ overflow-y: auto;
+}
+
+.activity ul {
+ padding: 9px;
+ list-style: none;
+ font-size: 14px;
+ color: #4e4e4e;
+}
